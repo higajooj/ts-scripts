@@ -6,7 +6,8 @@
   "main": "src/dfe.ts",
   "type": "module",
   "scripts": {
-    "dfe-test": "ts-node --esm src/dfe.ts"
+    "got-dfe": "ts-node --esm src/got-dfe.ts",
+    "soap-dfe": "ts-node --esm src/soap-dfe.ts"
   },
   "dependencies": {
     "got": "^12.5.1",
