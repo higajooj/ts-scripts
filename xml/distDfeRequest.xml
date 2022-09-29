@@ -7,11 +7,11 @@
       <nfeDadosMsg>
         <?xml-model href="../schemas/distDFeInt_v1.01.xsd" ?>
         <distDFeInt xmlns="http://www.portalfiscal.inf.br/nfe" versao="1.01">
-          <tpAmb>1</tpAmb>
-          <cUFAutor>11</cUFAutor>
-          <CNPJ>12345678910111</CNPJ>
+          <tpAmb>2</tpAmb>
+          <cUFAutor>50</cUFAutor>
+          <CNPJ>11111111111111</CNPJ>
           <distNSU>
-            <ultNSU>000000000000012</ultNSU>
+            <ultNSU>000000000000000</ultNSU>
           </distNSU>
         </distDFeInt>
       </nfeDadosMsg>
