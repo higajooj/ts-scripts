@@ -21,7 +21,7 @@ const main = async () => {
   const xml = cheerio.load(distDfeRequestXmlFile, { xml: { xmlMode: true } });
 
   const cnpjEl = xml("nfeDadosMsg distDFeInt CNPJ");
-  cnpjEl.html(process.env.COMPANY_CNPJ);
+  cnpjEl.text(process.env.COMPANY_CNPJ);
 
   const response = await got
     .post(NF_E_DIST_URL, {
